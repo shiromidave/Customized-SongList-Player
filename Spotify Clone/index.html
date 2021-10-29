@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favorite music is here!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class ="brand"><img src = "logo1.png" alt = "Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class = "songList">
+            <h1 style="color: rgb(202, 240, 248);">Naruto</h1>
+            <div class="songItemContainer">
+        <div class="songItem">
+            <img src="bg6.jpg" alt="1">
+            <span class="songName">Sadness & Sorrow</span>
+            <span class="songlistplay">
+                <span class="timestamp">05:34  <i id="0" class="far songItemPlay fa-play-circle"></i></span>
+               
+            </span>
+        </div>
+        <div class="songItem">
+            <img src="bg10.jpg" alt="1">
+            <span class="songName">Pain</span>
+            <span class="songlistplay">
+                <span class="timestamp">05:34  <i id="1" class="far songItemPlay fa-play-circle"></i></span>
+               
+            </span>
+        </div>
+        <div class="songItem">
+            <img src="bg11.jpg" alt="1">
+            <span class="songName">Neji</span>
+            <span class="songlistplay">
+                <span class="timestamp">05:34  <i id="2" class="far songItemPlay fa-play-circle"></i></span>
+               
+            </span>
+        </div>
+        <div class="songItem">
+            <img src="bg16.jpg" alt="1">
+            <span class="songName">Saskuke</span>
+            <span class="songlistplay">
+                <span class="timestamp">05:34  <i id="3" class="far songItemPlay fa-play-circle"></i></span>
+               
+            </span>
+        </div>
+        <div class="songItem">
+            <img src="bg5.jpg" alt="1">
+            <span class="songName">Sakura</span>
+            <span class="songlistplay">
+                <span class="timestamp">05:34  <i id="4" class="far songItemPlay fa-play-circle"></i></span>
+               
+            </span>
+        </div>
+        <div class="songItem">
+            <img  src="bg8.jpg"alt="1">
+            <span class="songName">Tsunade</span>
+            <span class="songlistplay">
+                <span class="timestamp">05:34  <i id="5" class="far songItemPlay fa-play-circle"></i></span>
+               
+            </span>
+        </div>
+        <div class="songItem">
+            <img src="bg16.jpg"  alt="1">
+            <span class="songName">Jiraya</span>
+            <span class="songlistplay">
+                <span class="timestamp">05:34  <i id="6" class="far songItemPlay fa-play-circle"></i></span>
+               
+            </span>
+        </div><div class="songItem">
+            <img src="bg4.jpg" alt="1">
+            <span class="songName">Orochimaru</span>
+            <span class="songlistplay">
+                <span class="timestamp">05:34  <i id="7" class="far songItemPlay fa-play-circle"></i></span>
+               
+            </span>
+        </div>
+        </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type = "range" name="range" id= "myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+            
+        </div>
+        <div class="songInfo" >
+            <img src="music3.gif" width = "42px" alt="" id="gif"><span id="masterSongName">Sadness & Sorrow</span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/02ca38202c.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
